@@ -1,188 +1,273 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
 </head>
+
 <body>
     <header>
-        <h1><p>Laura Molina</p></h1>
-        <button type="button">Concept art</button>
+        <h1>
+            Laura Molina
+        </h1>
+        <section class="headButtons">
+            <button type="button">Concept art</button>
         <button type="button">Animación</button>
         <button type="button">Ilustración</button>
         <button type="button">Videojuegos</button>
+        </section>        
     </header>
     <main>
-        <img src="Assets/Laura.png" alt="Photo of Laura." width="182" height="227">
-        <h2><p>¡Hola, Soy Laura!</p></h2>
-        <ul>
-            <li><p>Una estudiante con una pasión por la animación y los videojuegos, 
-                centrada en el diseño de personajes y el storytelling secuencial.</p></li>
-            <li><p>Me caracterizo por mi responsabilidad y adaptabilidad para 
-                aprender habilidades nuevas, además de mi aptitud para el trabajo 
-                colaborativo.</p></li>
-            <li><p>Me especializo en el diseño de personajes e ilustraciones, contando 
-                además con habilidades en animación y programación.</p></li>
-        </ul>
+        <section class="introduccion">
+            <img src="Assets/Laura.png" alt="Photo of Laura." width="182" height="227">
+            <h2>
+                Hola, Soy Laura!
+            </h2>
+            <div class="info">
+                <ul>
+                    <li>
+                        <p>Una estudiante con una pasión por la animación y los videojuegos,
+                            centrada en el diseño de personajes y el storytelling secuencial.</p>
+                    </li>
+                    <li>
+                        <p>Me caracterizo por mi responsabilidad y adaptabilidad para
+                            aprender habilidades nuevas, además de mi aptitud para el trabajo
+                            colaborativo.</p>
+                    </li>
+                    <li>
+                        <p>Me especializo en el diseño de personajes e ilustraciones, contando
+                            además con habilidades en animación y programación.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="habilidades">
+            <h2>
+                Habilidades
+            </h2>
+            <ul>
+                <li>
+                    <p>lustración, concept art de personajes y props, comics y conceptos básicos
+                        de diseño gráfico.</p>
+                </li>
+                <li>
+                    <p>Desarrollo de Storyboards y Animatics.</p>
+                </li>
+                <li>
+                    <p>Desarrollo de videojuegos y programación en C#.</p>
+                </li>
+                <li>
+                    <p>Nivel C1 en ingles.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="trabajos">
+            <h2>
+                Trabajos
+            </h2>
+            <ul>
+                <button type="button">Concept art</button>
+                <button type="button">Animación</button>
+                <button type="button">Ilustración</button>
+                <button type="button">Videojuegos</button>
+            </ul>
+        </section>
+        <section class="programas">
+            <h2>
+                Programas que domino
+            </h2>
+            <div class="ilustracion">
+                <h3>
+                    Ilustración y diseño
+                </h3>
+                <img src="Assets/Logos/CSP.png" alt="CSP Logo." width="100" height="100">
+                <img src="Assets/Logos/Photoshop.png" alt="Photoshop Logo." width="100" height="100">
+                <img src="Assets/Logos/Illustrator.png" alt="Illustrator Logo." width="100" height="100">
+                <img src="Assets/Logos/Premiere.png" alt="Premiere Logo." width="100" height="100">
+            </div>
+            <div class="animacion">
+                <h3>
+                    Animación
+                </h3>
+                <img src="Assets/Logos/Blender.png" alt="Blender Logo." width="100" height="100">
+                <img src="Assets/Logos/Painter.png" alt="Painter Logo." width="100" height="100">
+                <img src="Assets/Logos/Harmony.png" alt="Harmony Logo." width="100" height="100">
+                <img src="Assets/Logos/Storyboard.png" alt="Storyboard Logo." width="100" height="100">
+            </div>
+            <div class="desarrollo">
+                <h3>
+                    Desarrollo
+                </h3>
+                <img src="Assets/Logos/Unity.png" alt="Unity Logo." width="100" height="100">
+                <img src="Assets/Logos/Visual.png" alt="Visual Studio Logo." width="150" height="100">
+            </div>
+        </section>
+        <section class="contacto">
+            <h2>
+                Estemos en contacto
+            </h2>
+            <form action="" method="get" class="form">
+                <div class="formInput">
+                    <label for="name"><u>Nombre:</u> </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="formInput">
+                    <label for="email"><u>Email:</u> </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="formInput">
+                    <label for="subject"><u>Asunto:</u> </label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div class="formInput">
+                    <label for="compose">
+                        <p><u>Mensaje</u></p>
+                    </label>
+                    <input type="text" name="compose" id="compose" required>
+                </div>
+                <div class="formInput">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+        <section class="anims">
+            <section class="reel">
+                <h2>
+                    Animación 3D y 2D
+                </h2>
+                <p>Creación de animaciones para personajes en técnicas 3D o 2D.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BuF_OGdYARc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Reel de animación</p>
+            </section>
+            <section class="animatics">
+                <h2>
+                    Storyboarding y animatics
+                </h2>
+                <p>Desarrollo de historias por medio de la pre visualización de esta en secuencias de ilustraciones
+                    simples, ya sean estáticas (Storyboard) o semi-animadas).</p>
+                <div class="a little help">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5CxO4Vbp70A"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h4>
+                        "A little help"
+                    </h4>
+                    <p>Animatic creado como parte de la preproducción de un corto presentado como final de animación 2D.
+                    </p>
+                </div>
+                <div class="flores magicas">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/llih84OSq9A"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h4>
+                        "Flores Mágicas" - Escena 5
+                    </h4>
+                    <p>Animatic que presenta una de las escenas del corto animado para VR "Flores Mágicas", creado como
+                        parte de la preproducción de este.</p>
+                </div>
+            </section>
+        </section>
+        <section class="concept">
+            <h2>
+                Concept Art
+            </h2>
+            <p>Creación y desarrollo de ilustraciones en base a conceptos, universos o detalles establecidos. Centrada
+                en la
+                creación de personajes
+                pero abierta a la creación de props y escenarios.</p>
+            <div class="concept images">
+                <img src="Assets/Concept/360.png" alt="360 concept of character A." width="1100" height="360">
+                <img src="Assets/Concept/Personajes.png" alt="Set A of characters." width="715" height="360">
+                <img src="Assets/Concept/360 Cara.png" alt="360 concept of character b." width="1000" height="360">
+                <img src="Assets/Concept/Cara8.png" alt="Render of character B." width="290" height="360">
+            </div>
+        </section>
+        <section class="ilust">
+            <h2>
+                Ilustración
+            </h2>
+            <p>Creación de imágenes artísticas con técnicas de dibujo digitales o tradicionales, en base a ideas o
+                situaciones creadas con anterioridad.</p>
+            <div class="ilust images">
+                <img src="Assets/Ilust/Cara5.png" alt="Render of character A." width="306" height="360">
+                <img src="Assets/Ilust/Personaje.png" alt="Render of character B." width="268" height="360">
+                <img src="Assets/Ilust/Cara10.png" alt="Render of character C" width="244" height="360">
+                <img src="Assets/Ilust/ScenaryNoche.png" alt="Render of scenary" width="640" height="360">
+                <img src="Assets/Ilust/Materiales.png" alt="Render of materials" width="602" height="360">
+                <img src="Assets/Ilust/Personajes.png" alt="Sketchs of various characters" width="670" height="360">
+            </div>
+        </section>
+        <section class="videojuegos">
+            <h2>
+                Game developing
+            </h2>
+            <p>Desarrollo de videojuegos cortos en el motor de Unity, capacidad de expandir proyectos existentes y de
+                trabajar en equipo en proyectos controlados por versiones.</p>
+            <div class="azcendo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J6Uim0F8sH0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h4>
+                    Azcendo
+                </h4>
+                <p>Juego de plataformas competitivo entre 2 jugadores con 3 niveles a completar.</p>
+                <a href="https://simmer.io/@LMMoonlight/azcendo" class="button">Probar</a>
+            </div>
+            <div class="a promise's color">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9WTZJEn4vJ8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h4>
+                    A promise's color
+                </h4>
+                <p>Novela gráfica con múltiples finales en base a las decisiones del jugador.</p>
+                <a href="https://simmer.io/@LMMoonlight/a-promises-s-color" class="button">Probar</a>
+            </div>
+            <div class="monster Feast">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6QqktXNdo7s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h4>
+                    Monster Feast
+                </h4>
+                <p>Demo de juego cooperativo de estrategia y escape.</p>
+                <a href="https://simmer.io/@LMMoonlight/monster-feast" class="button">Probar</a>
+            </div>
+            <div class="betwiching Reedhood">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Zh181pI8Fy8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <h4>
+                    Betwitching Redhood
+                </h4>
+                <p>Juego de plataformas cooperativo entre 2 jugadores con 3 niveles a completar.</p>
+                <a href="https://drive.google.com/file/d/1vKoml02_4e15Ywf4VTJJ8TTYcG87XJLM/view"
+                    class="button">Probar</a>
+            </div>
+        </section>
     </main>
-    <section aria-label="Habilidades"> 
-        <h2><p>Habilidades</p></h2>
-        <ul>
-            <li><p>lustración, concept art de personajes y props, comics y conceptos básicos 
-                de diseño gráfico.</p></li>
-            <li><p>Desarrollo de Storyboards y Animatics.</p></li>
-            <li><p>Desarrollo de videojuegos y programación en C#.</p></li>
-            <li><p>Nivel C1 en ingles.</p></li>
-        </ul>
-    </section>
-    <section aria-label="Trabajos"> 
-        <h2><p>Trabajos</p></h2>
-        <ul>
-            <button type="button">Concept art</button>
-            <button type="button">Animación</button>
-            <button type="button">Ilustración</button>
-            <button type="button">Videojuegos</button>
-        </ul>
-    </section>
-    <section aria-label="Programas"> 
-        <h2><p>Programas que domino</p></h2>
-        <div class="Ilustracion">
-            <h3><p>Ilustración y diseño</p></h3>
-            <img src="Assets/Logos/CSP.png" alt="CSP Logo." width="100" height="100">
-            <img src="Assets/Logos/Photoshop.png" alt="Photoshop Logo." width="100" height="100">
-            <img src="Assets/Logos/Illustrator.png" alt="Illustrator Logo." width="100" height="100">
-            <img src="Assets/Logos/Premiere.png" alt="Premiere Logo." width="100" height="100">
-        </div>
-        <div class="Animacion">
-            <h3><p>Animación</p></h3>
-            <img src="Assets/Logos/Blender.png" alt="Blender Logo." width="100" height="100">
-            <img src="Assets/Logos/Painter.png" alt="Painter Logo." width="100" height="100">
-            <img src="Assets/Logos/Harmony.png" alt="Harmony Logo." width="100" height="100">
-            <img src="Assets/Logos/Storyboard.png" alt="Storyboard Logo." width="100" height="100">
-        </div>
-        <div class="Desarrollo">
-            <h3><p>Desarrollo</p></h3>
-            <img src="Assets/Logos/Unity.png" alt="Unity Logo." width="100" height="100">
-            <img src="Assets/Logos/Visual.png" alt="Visual Studio Logo." width="150" height="100">
-        </div>
-    </section>
-    <section aria-label="Contacto">
-        <h2><p>Estemos en contacto</p></h2>
-        <form action="" method="get" class="form">
-            <div class="form">
-              <label for="name"><u>Nombre:</u> </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <div class="form">
-              <label for="email"><u>Email:</u> </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <div class="form">
-                <label for="subject"><u>Asunto:</u> </label>
-                <input type="text" name="subject" id="subject" required>
-            </div>
-            <div class="form">
-                <label for="compose"><p><u>Mensaje</u></p></label>
-                <input type="text" name="compose" id="compose" required>
-            </div>
-            <div class="form">
-              <input type="submit" value="Enviar">
-            </div>
-          </form>
-    </section>
-    <section aria-label="Anims"> 
-        <section aria-label="Reel">
-            <h2><p>Animación 3D y 2D</p></h2>
-            <p>Creación de animaciones para personajes en técnicas 3D o 2D.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BuF_OGdYARc" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-            <p>Reel de animación</p>
-        </section>
-        <section aria-label="Animatics">
-            <h2><p>Storyboarding y animatics</p></h2>
-            <p>Desarrollo de historias por medio de la pre visualización de esta en secuencias de ilustraciones 
-                simples, ya sean estáticas (Storyboard) o semi-animadas).</p>
-            <div class="a little help">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/5CxO4Vbp70A" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
-                <h4><p>"A little help"</h4></p>
-                <p>Animatic creado como parte de la preproducción de un corto presentado como final de animación 2D.</p>
-            </div>
-            <div class="flores magicas">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/llih84OSq9A" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
-                <h4><p>"Flores Mágicas" - Escena 5</h4></p>
-                <p>Animatic que presenta una de las escenas del  corto animado para VR "Flores Mágicas", creado como parte de la preproducción de este.</p>
-            </div>
-        </section>
-    </section>
-    <section aria-label="Concept">
-        <h2><p>Concept Art</p></h2>
-        <p>Creación y desarrollo de ilustraciones en base a conceptos, universos o detalles establecidos. Centrada en la creación de personajes 
-            pero abierta a la creación de props y escenarios.</p>
-        <div class="concept images">
-            <img src="Assets/Concept/360.png" alt="360 concept of character A." width="1100" height="360">
-            <img src="Assets/Concept/Personajes.png" alt="Set A of characters." width="715" height="360">
-            <img src="Assets/Concept/360 Cara.png" alt="360 concept of character b." width="1000" height="360">
-            <img src="Assets/Concept/Cara8.png" alt="Render of character B." width="290" height="360">
-        </div>
-    </section>
-    <section aria-label="Ilust">
-        <h2><p>Ilustración</p></h2>
-        <p>Creación de imágenes artísticas con técnicas de dibujo digitales o tradicionales, en base a ideas o situaciones creadas con anterioridad.</p>
-        <div class="ilust images">
-            <img src="Assets/Ilust/Cara5.png" alt="Render of character A." width="306" height="360">
-            <img src="Assets/Ilust/Personaje.png" alt="Render of character B." width="268" height="360">
-            <img src="Assets/Ilust/Cara10.png" alt="Render of character C" width="244" height="360">
-            <img src="Assets/Ilust/ScenaryNoche.png" alt="Render of scenary" width="640" height="360">
-            <img src="Assets/Ilust/Materiales.png" alt="Render of materials" width="602" height="360">
-            <img src="Assets/Ilust/Personajes.png" alt="Sketchs of various characters" width="670" height="360">
-        </div>
-    </section>
-    <section aria-label="Videojuegos">
-        <h2><p>Game developing</p></h2>
-        <p>Desarrollo de videojuegos cortos en el motor de Unity, capacidad de expandir proyectos existentes y de trabajar en equipo en proyectos controlados por versiones.</p>
-        <div class="Azcendo">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/J6Uim0F8sH0" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h4><p>Azcendo</h4></p>
-            <p>Juego de plataformas competitivo entre 2 jugadores con 3 niveles a completar.</p>
-            <a href="https://simmer.io/@LMMoonlight/azcendo" class="button">Probar</a>
-        </div>
-        <div class="A promise's color"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9WTZJEn4vJ8" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h4><p>A promise's color</h4></p>
-            <p>Novela gráfica con múltiples finales en base a las decisiones del jugador.</p>
-            <a href="https://simmer.io/@LMMoonlight/a-promises-s-color" class="button">Probar</a>
-        </div>
-        <div class="Monster Feast">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6QqktXNdo7s" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h4><p>Monster Feast</h4></p>
-            <p>Demo de juego cooperativo de estrategia y escape.</p>
-            <a href="https://simmer.io/@LMMoonlight/monster-feast" class="button">Probar</a>
-        </div>
-        <div class="Betwiching Reedhood"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zh181pI8Fy8" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h4><p>Betwitching Redhood</h4></p>
-            <p>Juego de plataformas cooperativo entre 2 jugadores con 3 niveles a completar.</p>
-            <a href="https://drive.google.com/file/d/1vKoml02_4e15Ywf4VTJJ8TTYcG87XJLM/view" class="button">Probar</a>
-        </div>
-    </section>
     <footer>
-        <h1><p>Información de contacto</p></h1>
-        <p><b>Name | </b> Laura Molina</p>        
+        <h1>
+            Información de contacto
+        </h1>
+        <p><b>Name | </b> Laura Molina</p>
         <b>Correo | </b><a href="mailto:lauramolinay@gmail.com?Subject=Quiero%20trabajar%20contigo">
-             Lauramolinay@gmail.com</a>
+            Lauramolinay@gmail.com</a>
         <p><b>Teléfono | </b> +57 3005665405</p>
     </footer>
 </body>
+
 </html>
