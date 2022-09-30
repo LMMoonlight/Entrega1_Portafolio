@@ -33,11 +33,12 @@ header {
     transform: translate(-50%, -50%);
 }
 
-header h1{
+header h1 {
     font-size: 180%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 header h3 {
     font-size: inherit;
     text-align: center;
@@ -84,16 +85,15 @@ header picture {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;    
+    margin-left: 50px;
 }
 
 .body {
     transition: margin-left .5s;
     padding: 20px;
-    
 }
 
-.contactMenu{
+.contactMenu {
     position: absolute;
     display: block;
     padding: 8px 8px 8px 16px;
@@ -103,12 +103,68 @@ header picture {
     background-color: rgb(27, 3, 46);
 }
 
-.contactMenu h4{
+.contactMenu h4 {
     font-size: 130%;
     padding: 0px 0px 8px 0px;
 }
 
-.contactMenu span{
+.contactMenu span {
     display: block;
-    padding: 4px 8px 4px 8px;    
+    padding: 4px 8px 4px 8px;
 }
+
+#grupo {
+    border-radius: 40px;
+    background-color: rgba(217, 217, 217, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+    margin: 5% 0;
+}
+
+.introduccion img {    
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 10px solid #cfd8dc;
+}
+
+#grupo h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 200%;
+    text-align: center;
+}
+
+#grupo p{
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 120%;
+}
+
+.trabajos ul{
+    justify-content: center;
+}
+.trabajos button{
+    background-color: rgb(27, 3, 46);
+  border: none;
+  color: white;
+  min-width: 130px;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1% 1%;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.trabajos button:hover {
+    background-color: #ffffff; /* Green */
+    color: rgb(27, 3, 46);
+  }
