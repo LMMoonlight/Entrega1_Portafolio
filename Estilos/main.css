@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: rgb(79, 54, 80);
+    background-color: rgb(68, 37, 91);
 }
 
 html {
     font-size: 100%;
     color: #f1f1f1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -19,28 +20,95 @@ header {
     border-radius: 6px;
     position: sticky;
     width: 100%;
-    top: 0; 
+    top: 0;
     background-color: rgb(27, 3, 46);
-    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
 }
 
 .textHead {
 
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-header h1,
+header h1{
+    font-size: 180%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 header h3 {
     font-size: inherit;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header picture{
+
+header picture {
     position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-    scale:80%
+    top: 50%;
+    transform: translate(0, -50%);
+    scale: 80%
+}
+
+.menu {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(44, 12, 70);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Cambiar color en hover */
+.menu a:hover {
+    color: #f1f1f1;
+}
+
+.menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;    
+}
+
+.body {
+    transition: margin-left .5s;
+    padding: 20px;
+    
+}
+
+.contactMenu{
+    position: absolute;
+    display: block;
+    padding: 8px 8px 8px 16px;
+    transition: 0.3s;
+    height: 20vh;
+    top: 80vh;
+    background-color: rgb(27, 3, 46);
+}
+
+.contactMenu h4{
+    font-size: 130%;
+    padding: 0px 0px 8px 0px;
+}
+
+.contactMenu span{
+    display: block;
+    padding: 4px 8px 4px 8px;    
 }
