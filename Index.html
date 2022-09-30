@@ -6,21 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="./estilos/main.css" />
+    <link rel="stylesheet" href="./estilos/tablet.css" media="(min-width: 600px)" />
+    <link rel="stylesheet" href="./estilos/desktop.css" media="(min-width: 800px)" />
 </head>
 
 <body>
     <header>
-        <h1>
-            Laura Molina
-        </h1>
-        <section class="headButtons">
-            <button type="button">Concept art</button>
-        <button type="button">Animación</button>
-        <button type="button">Ilustración</button>
-        <button type="button">Videojuegos</button>
-        </section>        
+        <div class="textHead">
+            <h1>
+                Laura Molina
+            </h1>
+            <h3>Artista y programadora</h3>
+        </div>        
+        <picture>
+            <img src="Assets/menus/menu.png" alt="boton de menu">
+        </picture>
     </header>
+
     <main>
+        <div id="menuLateral" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Animacion</a>
+            <a href="#">Ilustracion</a>
+            <a href="#">Concept Art</a>
+            <a href="#">Videojuegos</a>
+        </div>                
+            
         <section class="introduccion">
             <img src="Assets/Laura.png" alt="Photo of Laura." width="182" height="227">
             <h2>
