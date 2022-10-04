@@ -246,7 +246,7 @@ header picture {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
-.anims h2{
+.secTitulo{
     background-color: rgba(217, 217, 217, 0.15);
     text-align: center;
     border-top-left-radius: 40px;
@@ -261,7 +261,7 @@ header picture {
     text-align: center;
 }
 
-.anims p{
+.secDesc{
     background-color: rgba(217, 217, 217, 0.437);
     text-align: center;
     border-bottom-left-radius: 40px;
@@ -270,6 +270,8 @@ header picture {
     padding-top: 10px;
     margin-bottom: 10px;
 }
+
+
 footer{
     display: block;
     min-height: 180px;
