@@ -233,3 +233,25 @@ header picture {
     background-color: #ffffff;
     color: rgb(27, 3, 46);
 }
+
+footer{
+    display: block;
+    min-height: 180px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: rgb(27, 3, 46);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
+    padding: 20px;
+}
+
+footer h1{
+font-size: 150%;
+padding: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+footer p{
+    padding: 5px;
+    text-align: center;
+}
