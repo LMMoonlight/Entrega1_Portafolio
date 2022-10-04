@@ -233,14 +233,14 @@ header picture {
     background-color: #ffffff;
     color: rgb(27, 3, 46);
 }
-.anims, .ilust, .concept{
+.anims, .ilust, .concept, .videojuegos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
     margin: 5% 0;
 }
-.anims iframe{
+.anims iframe, .videojuegos iframe{
     max-width: 100%;
     height: auto;
     border-top-left-radius: 40px;
@@ -257,9 +257,10 @@ header picture {
     min-width: 330px;
 }
 
-.anims h4{
+.anims h4, .videojuegos h4{
     background-color: rgba(217, 217, 217, 0.15);
     text-align: center;
+    padding: 10px;
 }
 
 .secDesc{
@@ -277,8 +278,14 @@ header picture {
     min-width: 100%;
     height: auto;
     border-radius: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     object-fit: cover;
+}
+
+.videojuegos a{
+    font-size: 120%;
+    color: #4d0424;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 footer{
