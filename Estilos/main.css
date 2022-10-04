@@ -233,7 +233,43 @@ header picture {
     background-color: #ffffff;
     color: rgb(27, 3, 46);
 }
+.anims{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 5% 0;
+}
+.anims iframe{
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.anims h2{
+    background-color: rgba(217, 217, 217, 0.15);
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
 
+.anims h4{
+    background-color: rgba(217, 217, 217, 0.15);
+    text-align: center;
+}
+
+.anims p{
+    background-color: rgba(217, 217, 217, 0.437);
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 15px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
 footer{
     display: block;
     min-height: 180px;
