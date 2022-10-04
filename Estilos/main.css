@@ -233,7 +233,7 @@ header picture {
     background-color: #ffffff;
     color: rgb(27, 3, 46);
 }
-.anims{
+.anims, .ilust, .concept{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -254,6 +254,7 @@ header picture {
     padding: 15px;
     padding-bottom: 10px;
     margin-top: 20px;
+    min-width: 330px;
 }
 
 .anims h4{
@@ -271,6 +272,14 @@ header picture {
     margin-bottom: 10px;
 }
 
+.ilust img, .concept img{
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    padding-bottom: 20px;
+    object-fit: cover;
+}
 
 footer{
     display: block;
