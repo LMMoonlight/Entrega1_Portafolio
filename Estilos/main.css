@@ -123,7 +123,7 @@ header picture {
     margin: 5% 0;
 }
 
-.introduccion img {    
+.introduccion img {
     height: 200px;
     display: block;
     border-radius: 50%;
@@ -132,39 +132,104 @@ header picture {
     border: 10px solid #cfd8dc;
 }
 
-#grupo h2{
+#grupo h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 200%;
     text-align: center;
 }
 
-#grupo p{
+#grupo p {
     padding: 10px;
     padding-bottom: 0px;
     font-size: 120%;
 }
 
-.trabajos ul{
+.trabajos ul {
     justify-content: center;
 }
-.trabajos button{
+
+.trabajos button {
     background-color: rgb(27, 3, 46);
-  border: none;
-  color: white;
-  min-width: 130px;
-  padding: 15px 18px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 1% 1%;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    color: white;
+    min-width: 130px;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1% 1%;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .trabajos button:hover {
-    background-color: #ffffff; /* Green */
+    background-color: #ffffff;
     color: rgb(27, 3, 46);
-  }
+}
+
+.programas h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.imagenes {
+    display: inline-block;
+    text-align: center;
+}
+
+.imagenes img {
+    padding: 5px;
+}
+
+.form {
+    min-width: 300px;
+    height: auto;
+
+}
+
+.formInput {
+
+    padding: 5px;
+    padding-left: 5px;
+}
+
+.formInput input {
+    display: block;
+    min-width: 250px;
+    min-height: 40px;
+    transition: all 0.3s;
+    padding: 5px;
+    margin-bottom: 6px;
+    margin-top: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+.formInput .mensaje{
+    min-height: 150px;
+}
+
+[type="submit"] {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 150px;
+    background: #1B032E;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+[type="submit"]:hover {
+    background-color: #ffffff;
+    color: rgb(27, 3, 46);
+}
