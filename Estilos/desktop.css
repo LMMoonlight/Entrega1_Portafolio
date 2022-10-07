@@ -33,3 +33,38 @@
     display: inline-flex;
     transform: translate(40%,0);
 }
+#grupo.programas{
+    background-color: rgba(217, 217, 217, 0);
+    width: 1300px;
+    margin-top: 0px;
+}
+.programas h2{
+    display: block;
+    width: 1000px;
+}
+.progImg{
+    background-color: rgba(217, 217, 217, 0.15);
+    border-radius: 40px;
+    padding: 30px 30px 30px 30px;
+    max-width: 360px;
+    margin: 2% 2%;
+    display: inline-block;
+}
+.progImg h3{
+    text-align: center;
+}
+.imagenes img{
+    width: 140px;
+    height: 140px;
+}
+.contacto h2{
+    width: 400px;
+}
+.form {
+    min-width: 600px;
+    height: auto;
+}
+[type="submit"]{
+    margin-left: 220px;
+}
+    
