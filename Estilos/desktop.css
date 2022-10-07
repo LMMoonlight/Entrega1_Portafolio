@@ -67,4 +67,15 @@
 [type="submit"]{
     margin-left: 220px;
 }
+.group{    
+    margin: 30px 10px;
+}
+.animatics h2, .animatics p{
+    max-width: 560px;
+}
+.anims, .ilust, .concept, .videojuegos {
+
+    margin: 2% 0
+}
+
     
