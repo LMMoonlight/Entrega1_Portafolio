@@ -73,8 +73,51 @@
 .animatics h2, .animatics p{
     max-width: 560px;
 }
-.anims, .ilust, .concept, .videojuegos {
 
+.desc{
+    display: inline-flex;
+}
+.concept p, .ilust p, .videojuegos p{
+    max-width: 560px;
+    border-radius: 0;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin:0;    
+}
+
+.concept h2, .ilust h2, .videojuegos h2{
+    min-width: 560px;
+    border-radius: 0;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin:0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conceptImages, .ilustImages{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.conceptImages img, .ilustImages img{
+    min-width: 0;
+    padding: 20px;
+}
+
+.grupoJuego{
+    margin: 20px;
+}
+.grupoJuego p{
+    border-radius: 0px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.anims, .ilust, .concept, .videojuegos {
     margin: 2% 0
 }
 

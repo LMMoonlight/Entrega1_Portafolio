@@ -209,7 +209,8 @@ header picture {
     border-radius: 20px;
     background-color: #D9D9D9;
 }
-.formInput .mensaje{
+
+.formInput .mensaje {
     min-height: 150px;
 }
 
@@ -233,20 +234,27 @@ header picture {
     background-color: #ffffff;
     color: rgb(27, 3, 46);
 }
-.anims, .ilust, .concept, .videojuegos{
+
+.anims,
+.ilust,
+.concept,
+.videojuegos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
     margin: 5% 0;
 }
-.anims iframe, .videojuegos iframe{
+
+.anims iframe,
+.videojuegos iframe {
     max-width: 100%;
     height: auto;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
-.secTitulo{
+
+.secTitulo {
     background-color: rgba(217, 217, 217, 0.15);
     text-align: center;
     border-top-left-radius: 40px;
@@ -257,13 +265,14 @@ header picture {
     min-width: 330px;
 }
 
-.anims h4, .videojuegos h4{
+.anims h4,
+.videojuegos h4 {
     background-color: rgba(217, 217, 217, 0.15);
     text-align: center;
     padding: 10px;
 }
 
-.secDesc{
+.secDesc {
     background-color: rgba(217, 217, 217, 0.437);
     text-align: center;
     border-bottom-left-radius: 40px;
@@ -273,7 +282,8 @@ header picture {
     margin-bottom: 10px;
 }
 
-.ilust img, .concept img{
+.ilust img,
+.concept img {
     max-width: 100%;
     min-width: 100%;
     height: auto;
@@ -282,13 +292,13 @@ header picture {
     object-fit: cover;
 }
 
-.videojuegos a{
+.videojuegos a {
     font-size: 120%;
     color: #4d0424;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-footer{
+footer {
     display: block;
     min-height: 180px;
     border-radius: 6px;
@@ -298,14 +308,14 @@ footer{
     padding: 20px;
 }
 
-footer h1{
-font-size: 150%;
-padding: 10px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: center;
+footer h1 {
+    font-size: 150%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-footer p{
+footer p {
     padding: 5px;
     text-align: center;
 }
