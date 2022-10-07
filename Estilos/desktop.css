@@ -1,0 +1,35 @@
+#grupo{
+    width: 700px;
+    margin: 2% auto;
+}
+
+.introduccion h2{
+    display: block;
+    margin: auto 20%;
+}
+.introduccion img{
+    width: 50%;
+    height: auto;
+}
+.info{
+    padding: 0 10%;
+}
+.habilidades ul{
+    padding: 0 5%;
+}
+.trabajos ul{
+    align-content: center;
+    height: 80%;
+}
+.trabajos button{
+    min-width: 175px;
+    height: 35%;
+    margin: 8px;
+}
+#grupo.habilidades, #grupo.trabajos{
+    margin: 2% 2%;
+    width: 450px;
+    height: 350px;
+    display: inline-flex;
+    transform: translate(40%,0);
+}
